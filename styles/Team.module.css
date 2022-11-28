@@ -1,0 +1,6 @@
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 11.5rem;
+  gap: 5rem;
+}

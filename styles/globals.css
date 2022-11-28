@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@layer base {
+  h2 {
+    @apply font-bold;
+  }
+}
+.faq-title.styles_faq-row__2YF3c {
+  border: none !important;
+}
+
+.faq-body.styles_row-body__1NvUo .styles_faq-row__2YF3c {
+  padding: 5px 10px !important;
+  border-bottom-color: green !important;
+  border: 1px solid green;
+  margin-top: 10px;
+}
+.faq-row-wrapper {
+  background-image: url(/images/Group\ 155\ \(1\).png) !important;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
