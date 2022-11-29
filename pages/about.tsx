@@ -81,7 +81,7 @@ export default function Home() {
             <Coma />
           </div>
         </div>
-        <div className="py-14">
+        <div className="py-14 ">
           <Coming />
         </div>
       </div>
